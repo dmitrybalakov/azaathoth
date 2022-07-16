@@ -1,4 +1,4 @@
-import { Point, Rect, Size, WithShape } from "../shape";
+import { Point, Rect, Size } from "../shape";
 import { randomColor } from "./color";
 
 export const randomRect = (size: Size): Rect => {

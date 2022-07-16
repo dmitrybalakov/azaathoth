@@ -1,5 +1,4 @@
-import { Color, ImageRow } from '../../src'
-import { ImageSourceArray } from '../modules';
+import { Color, ImageRow, ImageSourceArray } from '../../src'
 
 test('constructor', () => {
   expect(

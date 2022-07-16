@@ -1,4 +1,6 @@
-import { Color, ImageSource, Size } from '../../../../src'
+import { Color } from '../colors'
+import { ImageSource } from '../image';
+import { Size } from '../shape';
 
 export class ImageSourceArray implements ImageSource {
   static create (

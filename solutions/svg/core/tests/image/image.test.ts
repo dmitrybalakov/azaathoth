@@ -1,5 +1,4 @@
-import { Color, Image, ImageRow } from '../../src'
-import { ImageSourceArray } from '../modules';
+import { Color, Image, ImageRow, ImageSourceArray } from '../../src'
 
 test('constructor', () => {
   const source = ImageSourceArray.create(

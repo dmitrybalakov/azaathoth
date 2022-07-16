@@ -7,6 +7,7 @@
 	"license": "ISC",
 	"scripts": {
 		"build": "build_ts",
+		"ga_or": "npm run build && node ./target/ga/one-rect/start.js",
 		"test": "jest"
 	},
 	"devDependencies": {

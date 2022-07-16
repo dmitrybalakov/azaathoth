@@ -1,5 +1,4 @@
-import { BLACK, RED, SegmentsImage, SegmentsImageRow, TRANSPERENT, WHITE } from "../../src";
-import { BlackSquare } from "../modules";
+import { BLACK, RED, SegmentsImage, SegmentsImageRow, TRANSPERENT, WHITE, BlackSquare } from "../../src";
 
 test('constructor', () => {
   const image = new SegmentsImage(128, 64);

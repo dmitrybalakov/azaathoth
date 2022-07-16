@@ -35,6 +35,10 @@ export class Color {
     return new Color(r, this.g, this.b, this.a);
   }
 
+  rgba () {
+    return `rgba(${this.r}, ${this.g}, ${this.b}, ${this.a})`
+  }
+
   green (g: number): Color {
     return new Color(this.r, g, this.b, this.a);
   }
