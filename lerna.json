@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "dev/*",
+    "modules/*",
+    "packages/*",
+    "solutions/svg/*"
+  ],
+  "useNx": false,
+  "version": "0.0.0"
+}

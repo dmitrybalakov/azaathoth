@@ -1,0 +1,37 @@
+{
+	"name": "@azaathoth/svg-core",
+	"version": "1.0.0",
+	"description": "",
+	"main": "target/index.js",
+	"author": "",
+	"license": "ISC",
+	"scripts": {
+		"build": "build_ts",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@azaathoth/ga": "^1.0.0",
+		"@azaathoth/reports": "^1.0.0",
+		"@azaathoth/ts": "^1.0.0",
+		"@babel/preset-env": "^7.18.2",
+		"@babel/preset-typescript": "^7.17.12",
+		"@types/jest": "^28.1.0",
+		"jest": "^28.1.0",
+		"typescript": "^4.7.2"
+	},
+	"jest": {
+		"testRegex": "(/tests/.*.test)\\.ts$",
+		"globals": {
+			"ts-jest": {
+				"tsConfig": "./node_modules/@bln/ts/tsconfig.json"
+			}
+		}
+	},
+	"dependencies": {
+		"@azaathoth/ga": "^1.0.0",
+		"@azaathoth/list": "^1.0.0",
+		"@babel/preset-env": "^7.18.2",
+		"@babel/preset-typescript": "^7.17.12",
+		"@types/jest": "^28.1.3"
+	}
+}

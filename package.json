@@ -1,0 +1,15 @@
+{
+  "name": "azaathoth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx lerna run build",
+    "test": "npx lerna run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^5.1.6"
+  }
+}

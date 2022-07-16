@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ 'solutions/svg/core' ],
+0 silly argv   lernaVersion: '5.1.6',
+0 silly argv   '$0': '/Users/dbalakov/Projects/azaathoth/node_modules/.bin/lerna',
+0 silly argv   pkg: '@@types/jest'
+0 silly argv }
+1 notice cli v5.1.6
+2 verbose rootPath /Users/dbalakov/Projects/azaathoth
+3 error Error: Invalid package name "@": name can only contain URL-friendly characters
+3 error     at invalidPackageName (/Users/dbalakov/Projects/azaathoth/node_modules/npm-package-arg/npa.js:84:15)
+3 error     at Result.setName (/Users/dbalakov/Projects/azaathoth/node_modules/npm-package-arg/npa.js:119:11)
+3 error     at new Result (/Users/dbalakov/Projects/azaathoth/node_modules/npm-package-arg/npa.js:110:10)
+3 error     at resolve (/Users/dbalakov/Projects/azaathoth/node_modules/npm-package-arg/npa.js:54:15)
+3 error     at npa (/Users/dbalakov/Projects/azaathoth/node_modules/npm-package-arg/npa.js:48:10)
+3 error     at AddCommand.initialize (/Users/dbalakov/Projects/azaathoth/node_modules/@lerna/add/index.js:39:17)

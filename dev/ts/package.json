@@ -1,0 +1,11 @@
+{
+	"name": "@azaathoth/ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"build_ts": "./scripts/build.js"
+	},
+	"author": "",
+	"license": "ISC"
+}
