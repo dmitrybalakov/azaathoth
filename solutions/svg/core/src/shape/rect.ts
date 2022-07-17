@@ -10,6 +10,16 @@ export class Rect implements WithShape {
     public color: Color,
   ) { }
 
+  hash (): string {
+    return [
+      this.point.x,
+      this.point.y,
+      this.size.width,
+      this.size.height,
+      this.color.rgba()
+    ].join('#')
+  }
+
   shape(): Shape {
     const { x, y } = this.point;
     const { width, height } = this.size;

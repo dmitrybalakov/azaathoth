@@ -2,6 +2,7 @@ import { Color } from "../../colors";
 import { Segment, SegmentsImage } from "../../segments";
 
 export interface WithShape {
+  hash(): string;
   shape(): Shape;
 }
 

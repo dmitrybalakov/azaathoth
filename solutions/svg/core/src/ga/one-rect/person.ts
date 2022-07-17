@@ -1,6 +1,6 @@
 import { Person, PersonBirthDescription } from '@azaathoth/ga'
-import { SegmentsImage } from '../../segments'
 import { Rect } from '../../shape';
+import { personResult } from '../common';
 import { ORConfig } from './config'
 
 export class ORPerson extends Person {
@@ -15,21 +15,12 @@ export class ORPerson extends Person {
   }
 
   hash(): string {
-    return [
-      this.rect.point.x,
-      this.rect.point.y,
-      this.rect.size.width,
-      this.rect.size.height,
-      this.rect.color.rgba(),
-    ].join('#')
+    return this.rect.hash();
   }
 
   result(): number {
     if (this._result == null) {
-      const image = new SegmentsImage(this.config.size.width, this.config.size.height);
-      this.rect.shape().draw(image);
-
-      this._result = -1 * image.delta(this.config.target);
+      this._result = personResult(this.config, [ this.rect ]);
     }
 
     return this._result!;
